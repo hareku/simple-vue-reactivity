@@ -1,0 +1,38 @@
+{
+  "name": "simple-vue-reactivity",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hareku/simple-vue-reactivity.git",
+  "author": "hareku <hareku908@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^25.1.1",
+    "@types/node": "^13.7.0",
+    "jest": "^25.1.0",
+    "rollup": "^1.31.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "ts-jest": "^25.1.0",
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "globals": {
+      "ts-jest": {
+        "tsConfig": "tsconfig.json"
+      }
+    },
+    "testMatch": [
+      "./**/*.spec.ts"
+    ]
+  }
+}
